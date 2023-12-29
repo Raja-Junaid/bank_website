@@ -1,5 +1,7 @@
 import { Navbar, Hero, Stats, Features, Pricing, Companies, Testimonials, GetStarted, Footer } from './components';
 
+import styles from './style';
+
 const App = () => {
   return (
     <div>
