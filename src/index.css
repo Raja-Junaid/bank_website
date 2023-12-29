@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .max-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+.bg-gradient-1 {
+  background: rgba(91, 245, 255, 0.20);
+  filter: blur(175px);
+}
+
+.bg-gradient-2 {
+  background: rgba(91, 245, 255, 0.16);
+  filter: blur(175px);
+}
+
+.btnBgColor {
+  background: linear-gradient(83deg, #003346 -15.44%, rgba(30, 61, 91, 0.92) 112.04%);
+}
+
+.pricingCardBg {
+  background: linear-gradient(150deg, rgba(4, 50, 66, 0.95) 0%, rgba(2, 57, 76, 0.90) 44.41%, rgba(6, 39, 52, 0.90) 102.48%);
+}
