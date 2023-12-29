@@ -13,7 +13,11 @@ export default {
 
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-      }
+      },
+
+      screens: {
+        "wide": "1440px"
+      },
     },
   },
   plugins: [],

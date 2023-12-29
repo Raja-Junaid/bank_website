@@ -15,6 +15,13 @@
   }
 }
 
+.textGradient {
+  background: linear-gradient(90deg, #0E495E -7.58%, #0E679C 110.61%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .bg-gradient-1 {
   background: rgba(91, 245, 255, 0.20);
   filter: blur(175px);
