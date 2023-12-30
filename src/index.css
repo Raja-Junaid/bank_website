@@ -39,3 +39,34 @@
 .pricingCardBg {
   background: linear-gradient(150deg, rgba(4, 50, 66, 0.95) 0%, rgba(2, 57, 76, 0.90) 44.41%, rgba(6, 39, 52, 0.90) 102.48%);
 }
+
+.sidebar {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(80px);
+    transform: translateY(80px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(80px);
+    transform: translateY(80px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.customShadow {
+  box-shadow: rgba(21, 21, 21, 0.2) 0px 7px 22px 0px;
+}

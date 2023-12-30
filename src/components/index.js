@@ -6,7 +6,6 @@ import Footer from './Footer';
 import GetStarted from './GetStarted';
 import Hero from './Hero';
 import Navbar from './Navbar';
-import NavBtn from './NavBtn';
 import Pricing from './Pricing';
 import Stats from './Stats';
 import Testimonials from './Testimonials';
@@ -20,7 +19,6 @@ export {
   GetStarted,
   Hero,
   Navbar,
-  NavBtn,
   Pricing,
   Stats,
   Testimonials,

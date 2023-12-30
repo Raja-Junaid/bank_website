@@ -5,7 +5,7 @@ import styles from './style';
 const App = () => {
   return (
     <div>
-      <section>
+      <section className={`${styles.paddingX} py-8`}>
         <Navbar />
       </section>
       <section>
