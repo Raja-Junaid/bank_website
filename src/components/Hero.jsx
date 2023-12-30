@@ -3,7 +3,7 @@ import { heroImage, rightArrow } from "../assets";
 
 const Hero = () => (
   <div id="home" className="relative max-container flex justify-center items-center flex-col md:flex-row gap-y-8 md:gap-y-0">
-    <div className="bg-gradient-1 rounded-full w-[400px] h-[400px] absolute top-36 -left-[90%] lg:top-20 lg:-left-[50%] xl:top-52 xl:-left-[30%] -z-10 min-[1920px]:hidden"></div>
+    <div className="bg-gradient-1 rounded-full w-[400px] h-[400px] absolute top-36 -left-[90%] opacity-[50%] md:opacity-[100%] lg:top-20 lg:-left-[50%] xl:top-52 xl:-left-[30%] -z-10 min-[1920px]:hidden"></div>
 
     <div className="flex flex-col gap-y-3 lg:-mt-12 xl:-mt-16 2xl:w-full">
       <h1 className="max-w-xl text-4xl lg:text-5xl xl:text-6xl 2xl:text-[68px] font-poppins font-semibold text-gray-900 leading-[48px] tracking-[0.09px] lg:leading-[65px] xl:leading-[84px] 2xl:leading-[92px]">
