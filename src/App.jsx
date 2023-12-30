@@ -8,7 +8,7 @@ const App = () => {
       <section className={`${styles.paddingX} py-8`}>
         <Navbar />
       </section>
-      <section>
+      <section className={`${styles.paddingX} py-5 xl:py-2`}>
         <Hero />
       </section>
       <section>

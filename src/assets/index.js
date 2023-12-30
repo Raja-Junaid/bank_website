@@ -12,6 +12,7 @@ import featIcon3 from './icons/feat-3.png';
 import featIcon4 from './icons/feat-4.png';
 import hamburger from './icons/hamburger.svg';
 import instagramIcon from './icons/instagram-icon.svg';
+import rightArrow from './icons/right-arrow.svg';
 import tick from './icons/tick.png';
 import people1 from './people01.png';
 import people2 from './people02.png';
@@ -33,6 +34,7 @@ export {
   featIcon4,
   hamburger,
   instagramIcon,
+  rightArrow,
   tick,
   people1,
   people2,

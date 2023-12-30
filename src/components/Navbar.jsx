@@ -32,7 +32,7 @@ const Navbar = () => {
         />
       </div>
 
-      <ul className={`absolute top-10 right-0 bg-cyan-800 w-[140px] h-[190px] flex-1 ${toggle ? 'flex' : 'hidden'} justify-center items-center flex-col rounded-lg sidebar customShadow border border-zinc-300`}>
+      <ul className={`absolute top-10 right-0 bg-cyan-800 w-[140px] h-[190px] flex-1 ${toggle ? 'flex' : 'hidden'} justify-center items-center flex-col rounded-lg sidebar customShadow`}>
         {navLinks.map((navlink, index) => (
           <li key={navlink.id}>
             <a href={`#${navlink.id}`} className={`text-lg inline-block tracking-normal ${index === navLinks.length - 1 ? 'mb-0' : 'mb-3'} text-white`}>{navlink.title}</a>
