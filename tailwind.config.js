@@ -9,10 +9,12 @@ export default {
       colors: {
         darkTeal: "#022B3A",
         darkGreen: "#00727A",
+        darkGray: "#222222",
       },
 
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        markazi: ["Markazi Text", "serif"],
       },
 
       screens: {

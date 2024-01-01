@@ -22,14 +22,17 @@ export const navLinks = [
 export const stats = [
   {
     id: "stat-1",
-    title: "User Active"
+    number: "3800+",
+    title: "User Active",
   },
   {
     id: "stat-2",
+    number: "230+",
     title: "Transaction"
   },
   {
     id: "stat-3",
+    number: "$230M+",
     title: "Trusted By Company"
   },
 ]

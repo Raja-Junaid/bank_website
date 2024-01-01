@@ -8,7 +8,7 @@ const Navbar = () => {
   
   return (
     <nav className="relative w-full flex justify-between items-center max-container">
-      <h2 className="font-poppins text-3xl font-bold text-darkTeal tracking-tight">Junaid.</h2>
+      <h2 className="font-markazi text-5xl font-semibold text-darkTeal tracking-tight">Junaid.</h2>
 
       <ul className="flex-1 lg:flex justify-center items-center hidden">
         {navLinks.map((navlink, index) => (
