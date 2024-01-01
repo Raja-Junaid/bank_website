@@ -11,7 +11,7 @@ const App = () => {
       <section className={`${styles.paddingX} py-5 xl:py-2`}>
         <Hero />
       </section>
-      <section className={`${styles.paddingX} py-10 md:py-14 lg:py-8`}>
+      <section className={`${styles.paddingX} py-10 md:py-14 lg:py-6`}>
         <Stats />
       </section>
       <section>
