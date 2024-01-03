@@ -5,7 +5,7 @@ import binance from './binance.svg';
 import coinbase from './coinbase.svg';
 import dropbox from './dropbox.svg';
 import getStartedImage from './get-started-image.png';
-import heroImage from './hero-image.png';
+import heroImage from './hero-image.svg';
 import featIcon1 from './icons/feat-1.png';
 import featIcon2 from './icons/feat-2.png';
 import featIcon3 from './icons/feat-3.png';
