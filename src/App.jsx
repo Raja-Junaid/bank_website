@@ -17,7 +17,7 @@ const App = () => {
       <section className={`${styles.paddingX} py-7 lg:py-16 xl:py-[4.7rem] 2xl:py-[4.9rem]`}>
         <Features />
       </section>
-      <section className={`${styles.paddingX} py-8 lg:py-16`}>
+      <section className={`${styles.paddingX} py-10 lg:py-16`}>
         <Pricing />
       </section>
       <section>

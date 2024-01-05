@@ -37,7 +37,7 @@
 }
 
 .pricingCardBg {
-  background: linear-gradient(150deg, rgba(4, 50, 66, 0.95) 0%, rgba(2, 57, 76, 0.90) 44.41%, rgba(6, 39, 52, 0.90) 102.48%);
+  background-color: linear-gradient(150deg, rgba(4, 50, 66, 0.95) 0%, rgba(2, 57, 76, 0.90) 44.41%, rgba(6, 39, 52, 0.90) 102.48%);
 }
 
 .sidebar {

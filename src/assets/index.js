@@ -13,7 +13,7 @@ import featIcon4 from './icons/feat-4.png';
 import hamburger from './icons/hamburger.svg';
 import instagramIcon from './icons/instagram-icon.svg';
 import rightArrow from './icons/right-arrow.svg';
-import tick from './icons/tick.png';
+import tick from './icons/tick.svg';
 import people1 from './people01.png';
 import people2 from './people02.png';
 import people3 from './people03.png';

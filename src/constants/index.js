@@ -70,7 +70,9 @@ export const pricing = [
     category: "Lite",
     price: "$19",
     month: "/mo",
-    desc: "Up to 5 shared spaces",
+    desc1: "Up to",
+    num: '5',
+    desc2: 'shared spaces',
     list: [
       {
         icon: tick,
@@ -89,6 +91,7 @@ export const pricing = [
         title: "Email & chat support",
       },
       {
+        icon: tick,
         title: "Launch Support",
       },
     ],
@@ -99,7 +102,9 @@ export const pricing = [
     category: "Pro",
     price: "$39",
     month: "/mo",
-    desc: "Up to 50 shared spaces",
+    desc1: "Up to",
+    num: "50",
+    desc2: "shared spaces",
     list: [
       {
         icon: tick,
@@ -118,6 +123,7 @@ export const pricing = [
         title: "Email & chat support",
       },
       {
+        icon: tick,
         title: "Launch Support",
       },
     ],
@@ -128,7 +134,9 @@ export const pricing = [
     category: "Premium",
     price: "$69",
     month: "/mo",
-    desc: "Up to 120 shared spaces",
+    desc1: "Up to",
+    num: "120",
+    desc2: "shared spaces",
     list: [
       {
         icon: tick,
@@ -147,6 +155,7 @@ export const pricing = [
         title: "Email & chat support",
       },
       {
+        icon: tick,
         title: "Launch Support",
       },
     ],
