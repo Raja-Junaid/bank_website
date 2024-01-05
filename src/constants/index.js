@@ -66,7 +66,7 @@ export const features = [
 
 export const pricing = [
   {
-    id: "price-1",
+    id: "1",
     category: "Lite",
     price: "$19",
     month: "/mo",
@@ -75,22 +75,27 @@ export const pricing = [
     desc2: 'shared spaces',
     list: [
       {
+        id: "id-1",
         icon: tick,
         title: "Access to all features",
       },
       {
+        id: "id-2",
         icon: tick,
         title: "One-click instant sharing",
       },
       {
+        id: "id-3",
         icon: tick,
         title: "Unlimited archived spaces",
       },
       {
+        id: "id-4",
         icon: tick,
         title: "Email & chat support",
       },
       {
+        id: "id-5",
         icon: tick,
         title: "Launch Support",
       },
@@ -98,7 +103,7 @@ export const pricing = [
     btnTitle: "Start free trial",
   },
   {
-    id: "price-2",
+    id: "1",
     category: "Pro",
     price: "$39",
     month: "/mo",
@@ -107,22 +112,27 @@ export const pricing = [
     desc2: "shared spaces",
     list: [
       {
+        id: "id-1",
         icon: tick,
         title: "Access to all features",
       },
       {
+        id: "id-2",
         icon: tick,
         title: "One-click instant sharing",
       },
       {
+        id: "id-3",
         icon: tick,
         title: "Unlimited archived spaces",
       },
       {
+        id: "id-4",
         icon: tick,
         title: "Email & chat support",
       },
       {
+        id: "id-5",
         icon: tick,
         title: "Launch Support",
       },
@@ -130,7 +140,7 @@ export const pricing = [
     btnTitle: "Start free trial",
   },
   {
-    id: "price-3",
+    id: "1",
     category: "Premium",
     price: "$69",
     month: "/mo",
@@ -139,22 +149,27 @@ export const pricing = [
     desc2: "shared spaces",
     list: [
       {
+        id: "id-1",
         icon: tick,
         title: "Access to all features",
       },
       {
+        id: "id-2",
         icon: tick,
         title: "One-click instant sharing",
       },
       {
+        id: "id-3",
         icon: tick,
         title: "Unlimited archived spaces",
       },
       {
+        id: "id-4",
         icon: tick,
         title: "Email & chat support",
       },
       {
+        id: "id-5",
         icon: tick,
         title: "Launch Support",
       },

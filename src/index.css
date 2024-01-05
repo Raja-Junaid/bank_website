@@ -28,7 +28,7 @@
 }
 
 .bg-gradient-2 {
-  background: rgba(91, 245, 255, 0.16);
+  background: rgba(15, 221, 235, 0.4);
   filter: blur(175px);
 }
 
@@ -36,8 +36,12 @@
   background: linear-gradient(83deg, #003346 -15.44%, rgba(30, 61, 91, 0.92) 112.04%);
 }
 
+.btnBgColorWhite {
+  background: linear-gradient(83deg, #f4fcff -15.44%, rgba(239, 247, 255, 0.92) 112.04%);
+}
+
 .pricingCardBg {
-  background-color: linear-gradient(150deg, rgba(4, 50, 66, 0.95) 0%, rgba(2, 57, 76, 0.90) 44.41%, rgba(6, 39, 52, 0.90) 102.48%);
+  background: linear-gradient(150deg, rgba(4, 50, 66, 0.95) 0%, rgba(2, 57, 76, 0.90) 44.41%, rgba(6, 39, 52, 0.90) 102.48%);
 }
 
 .sidebar {

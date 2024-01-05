@@ -11,7 +11,7 @@ const Hero = () => (
       </h1>
       <p className="text-gray-600 text-[17px] xl:text-[18px] xl:leading-[30px] mb-2 max-w-md xl:max-w-[30rem] 2xl:max-w-[32rem]">Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. We examine annual percentage rates, annual fees.</p>
       <div className="flex items-center gap-x-4 xl:mt-2 lg:gap-x-6">
-        <Button label="Get Started" />
+        <Button label="Get Started" bgColor="btnBgColor" textColor="text-white" fontWeight="font-medium" />
         <a href="/" className="flex justify-center items-center gap-x-1 text-gray-500 cursor-pointer">
           <p className="text-[17px]">Learn more</p>
           <img src={rightArrow} alt="Right Arrow" className="w-[18px] h-[18px] mt-1" />

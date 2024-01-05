@@ -4,7 +4,7 @@ import styles from './style';
 
 const App = () => {
   return (
-    <div>
+    <div className='overflow-x-auto'>
       <section className={`${styles.paddingX} py-8`}>
         <Navbar />
       </section>
@@ -14,10 +14,10 @@ const App = () => {
       <section className={`${styles.paddingX} py-10 md:py-14 lg:py-6`}>
         <Stats />
       </section>
-      <section className={`${styles.paddingX} py-7 lg:py-16 xl:py-[4.7rem] 2xl:py-[4.9rem]`}>
+      <section className={`${styles.paddingX} py-7 lg:py-16 xl:py-20`}>
         <Features />
       </section>
-      <section className={`${styles.paddingX} py-10 lg:py-16`}>
+      <section className={`${styles.paddingX} py-12 lg:py-[4.4rem]`}>
         <Pricing />
       </section>
       <section>
