@@ -2,6 +2,10 @@ import { Navbar, Hero, Stats, Features, Pricing, Companies, Testimonials, GetSta
 
 import styles from './style';
 
+import { inject } from '@vercel/analytics';
+
+inject();
+
 const App = () => {
   return (
     <div className='overflow-x-hidden'>
