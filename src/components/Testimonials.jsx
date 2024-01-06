@@ -38,10 +38,10 @@ const Testimonials = () => {
           clickable: true,
         }}
         modules={[Autoplay]}
-        className="mySwiper"
+        className="mySwiper w-full h-full"
       >
         {testimonials.map((testi) => (
-          <SwiperSlide key={testi.id} className='flex flex-col gap-y-6 px-8 py-6 rounded-lg border hover:border-darkTeal transition-all ease-in-out hover:shadow-xl md:h-[430px] lg:h-[420px] xl:h-[370px] 2xl:h-[346px] xl:pt-7'>
+          <SwiperSlide key={testi.id} className='flex flex-col justify-start items-start bg-white h-[400px] border border-[#0033461f]  gap-y-6 px-8 py-6 text-[18px] rounded-lg hover:border-darkTeal transition-all ease-in-out hover:shadow-xl md:h-[430px] lg:h-[420px] xl:h-[370px] 2xl:h-[346px] xl:pt-7'>
             <img src={testi.icon} alt="Quotes Icon" className='w-[55px] h-[55px] object-contain' />
             <p className='font-poppins leading-[32px]'>{testi.content}</p>
             <div className='flex flex-row gap-x-3'>
