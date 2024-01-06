@@ -1,4 +1,4 @@
-import React from 'react'
+import { socialIcons, footerLinks } from "../constants";
 
 const Footer = () => {
   return (

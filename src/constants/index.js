@@ -1,4 +1,4 @@
-import { featIcon1, featIcon2, featIcon3, featIcon4, tick, airbnb, coinbase, binance, dropbox, people1, people2, people3, facebookIcon, instagramIcon, twitterIcon } from '../assets';
+import { featIcon1, featIcon2, featIcon3, featIcon4, tick, airbnb, coinbase, binance, dropbox, people1, people2, people3, people4, people5, facebookIcon, instagramIcon, quotes, twitterIcon } from '../assets';
 
 export const navLinks = [
   {
@@ -200,24 +200,66 @@ export const companies = [
 export const testimonials = [
   {
     id: 'test-1',
+    icon: quotes,
     avatar: people1,
     name: 'Herman Jensen',
     work: "Founder & Leader",
-    content: "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+    content: "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver. Simplified banking, maximum convenience!",
   },
   {
     id: 'test-2',
+    icon: quotes,
     avatar: people2,
     name: 'Steve Mark',
     work: "Founder & Leader",
-    content: "Money makes your life easier. If you're lucky to have it, you're lucky.",
+    content: "Exceptional service and personalized attention; this bank goes above and beyond to meet my financial needs.",
   },
   {
     id: 'test-3',
+    icon: quotes,
     avatar: people3,
     name: 'Kenn Gallagher',
     work: "Founder & Leader",
-    content: "It is usually people in the money business, finance, and international trade that are really rich.",
+    content: "It is usually people in the money business, finance, and international trade that are really rich. Quick, efficient, and customer-focused.",
+  },
+  {
+    id: 'test-4',
+    icon: quotes,
+    avatar: people4,
+    name: 'Hanna James',
+    work: "Manager",
+    content: "They delivers a superior online banking experience, making banking easy with dedication to excellence.",
+  },
+  {
+    id: 'test-5',
+    icon: quotes,
+    avatar: people5,
+    name: 'Ronne Missy',
+    work: "Founder & Leader",
+    content: "I trust this bank with my financial future. Money makes your life easier. If you're lucky to have it, you're lucky.",
+  },
+]
+
+export const faqs = [
+  {
+    id: 'faq-1',
+    ques: "How do I open an account?",
+    ans: "Visit our website or a branch to start the hassle-free account opening process online or with the assistance of our friendly staff.",
+  },
+  {
+    id: 'faq-2',
+    ques: "Can I access my account from my mobile device?",
+    ans: "Absolutely! Download our mobile banking app for secure and convenient access to your accounts anytime, anywhere.",
+  },
+  {
+    id: 'faq-3',
+    ques: "What is the minimum balance requirement?",
+    ans: "Our account options cater to various needs; check our account types to find one that suits you, some with no minimum balance requirements.",
+  },
+  {
+    id: 'faq-4',
+    ques: "What fees are associated with your services?",
+    ans: "Explore our transparent fee structure on our website or speak to our representatives to understand the costs associated with our services.",
   },
 ]
 

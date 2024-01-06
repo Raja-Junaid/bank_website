@@ -1,5 +1,6 @@
 import Button from './Button';
 import Companies from './Companies';
+import Faqs from './Faq.jsx';
 import Feature from './Feature';
 import Features from './Features';
 import Footer from './Footer';
@@ -13,6 +14,7 @@ import Testimonials from './Testimonials';
 export {
   Button,
   Companies,
+  Faqs,
   Feature,
   Features,
   Footer,

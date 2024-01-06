@@ -1,4 +1,4 @@
-import { Navbar, Hero, Stats, Features, Pricing, Companies, Testimonials, GetStarted, Footer } from './components';
+import { Navbar, Hero, Stats, Features, Pricing, Companies, Testimonials, GetStarted, Faqs, Footer } from './components';
 
 import styles from './style';
 
@@ -23,11 +23,14 @@ const App = () => {
       <section className={`${styles.paddingX} py-10 lg:py-14`}>
         <Companies />
       </section>
-      <section>
+      <section className={`${styles.paddingX} py-16 lg:py-20 mt-16 md:mt-20 xl:py-[5.5rem] bg-slate-100 testi-container`}>
         <Testimonials />
       </section>
-      <section>
+      <section className={`${styles.paddingX} py-20 lg:py-24`}>
         <GetStarted />
+      </section>
+      <section className={`${styles.paddingX} pb-16 pt-3 lg:pt-8 lg:pb-20 lg:mx-20 xl:mx-28`}>
+        <Faqs />
       </section>
       <section>
         <Footer />
