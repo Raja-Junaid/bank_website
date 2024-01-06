@@ -29,10 +29,10 @@ const App = () => {
       <section className={`${styles.paddingX} py-20 lg:py-24`}>
         <GetStarted />
       </section>
-      <section className={`${styles.paddingX} pb-16 pt-3 lg:pt-8 lg:pb-20 lg:mx-20 xl:mx-28`}>
+      <section className={`${styles.paddingX} pb-28 pt-3 lg:pt-8 lg:pb-36 lg:mx-20 xl:mx-28`}>
         <Faqs />
       </section>
-      <section>
+      <section className='bg-darkTeal'>
         <Footer />
       </section>
     </div>

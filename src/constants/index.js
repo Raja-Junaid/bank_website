@@ -6,8 +6,8 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "about",
-    title: "About",
+    id: "statistics",
+    title: "Statistics",
   },
   {
     id: "features",
@@ -267,14 +267,17 @@ export const socialIcons = [
   {
     id: 'social-1',
     icon: facebookIcon,
+    link: "https://www.facebook.com/junaidcoder/",
   },
   {
     id: 'social-2',
     icon: instagramIcon,
+    link: "https://www.instagram.com/junaidcoder/",
   },
   {
     id: 'social-3',
     icon: twitterIcon,
+    link: "https://twitter.com/junaidcoder",
   },
 ]
 

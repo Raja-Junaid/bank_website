@@ -5,7 +5,7 @@ import 'remixicon/fonts/remixicon.css'
 
 const Pricing = () => {
   return (
-    <div className="relative">
+    <div id="pricing" className="relative">
       <div className="bg-gradient-2 rounded-full w-[400px] h-[400px] absolute top-20 -right-[99%] opacity-[80%] md:opacity-100 -z-20 md:-right-[30%] md:top-10 xl:top-16 xl:-right-[35%] min-[1920px]:hidden"></div>
 
       <div className="max-container flex flex-col gap-y-12 md:gap-y-14 lg:gap-y-16 text-center xl:gap-y-[4.2rem]">

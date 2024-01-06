@@ -4,7 +4,7 @@ import Feature from "./Feature";
 
 const Features = () => {
   return (
-    <div className="max-container flex flex-col gap-y-12 md:gap-y-14 lg:gap-y-16 text-center xl:gap-y-[4.8rem]">
+    <div id="features" className="max-container flex flex-col gap-y-12 md:gap-y-14 lg:gap-y-16 text-center xl:gap-y-[4.8rem]">
       <div className=" mx-auto">
         <h2 className={`${styles.heading2} mb-1 lg:mb-2.5`}>Features We Provide</h2>
         <p className={`${styles.paragraph} max-w-[500px]`}>With the right credit card, you can improve your financial life by building credit and earning rewards</p>

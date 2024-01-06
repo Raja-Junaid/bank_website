@@ -9,14 +9,12 @@ import styles from '../style';
 
 const Testimonials = () => {
   const breakpoints = {
-    // when window width is >= 768px
     768: {
       slidesPerView: 2,
     },
     1024: {
       slidesPerView: 3,
     },
-    // when window width is < 768px
     0: {
       slidesPerView: 1,
     },
@@ -32,7 +30,6 @@ const Testimonials = () => {
         spaceBetween={30}
         slidesPerView={3}
         breakpoints={breakpoints}
-        // centeredSlides={true}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
@@ -40,7 +37,6 @@ const Testimonials = () => {
         pagination={{
           clickable: true,
         }}
-        // navigation={true}
         modules={[Autoplay]}
         className="mySwiper"
       >

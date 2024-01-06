@@ -90,7 +90,6 @@
   background: rgb(255, 255, 255);
   height: 400px;
   border: 1px solid #0033461f;
-  /* Center slide text vertically */
   display: flex;
   justify-content: start;
   align-items: start;
