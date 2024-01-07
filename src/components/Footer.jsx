@@ -26,7 +26,7 @@ const Footer = () => {
       <hr class="w-full mx-auto border-t border-gray-500 pb-6 md:pb-7" />
 
       <div className="pb-10 flex flex-col gap-y-5 md:flex-row md:gap-y-0 md:justify-between">
-        <p className="text-white font-poppins">Copyright {currentYear} HooBank. All Rights Reserved.</p>
+        <p className="text-white font-poppins">Copyright {currentYear} Raja Junaid. All Rights Reserved.</p>
         
         <div className="flex gap-x-6 md:gap-x-8">
           {socialIcons.map((socialIcon) => (
