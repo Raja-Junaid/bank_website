@@ -8,6 +8,17 @@
   scroll-behavior: smooth;
 }
 
+html::-webkit-scrollbar {
+  width: 8px;
+  height: 16px;
+}
+
+html::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  background: rgb(15, 180, 161);
+}
+
 @layer components {
   .max-container {
     max-width: 1280px;
