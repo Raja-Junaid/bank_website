@@ -9,15 +9,20 @@
 }
 
 html::-webkit-scrollbar {
-  width: 8px;
+  width: 9px;
   height: 16px;
   background: #dadada;
+  cursor: pointer;
 }
 
 html::-webkit-scrollbar-thumb {
   -webkit-border-radius: 20px;
   border-radius: 20px;
   background: rgb(10, 151, 135);
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: rgb(4, 114, 102);
 }
 
 @layer components {
